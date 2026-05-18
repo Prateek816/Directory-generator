@@ -50,3 +50,5 @@ PROJECT_TYPE_PROMPT = ChatPromptTemplate.from_messages([
     SystemMessagePromptTemplate.from_template(PROJECT_TYPE_SYSTEM),
     HumanMessagePromptTemplate.from_template(PROJECT_TYPE_HUMAN),
 ])
+
+build_content_prompt = FILE_CONTENT_PROMPT

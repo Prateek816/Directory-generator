@@ -1,0 +1,60 @@
+project_initializer/
+├── app/
+│   ├── chains/
+│   │   ├── generation_chain.py
+│   │   ├── analysis_chain.py
+│   │   └── __init__.py
+│   │
+│   ├── prompts/
+│   │   ├── system_prompt.txt
+│   │   ├── file_generation_prompt.txt
+│   │   └── __init__.py
+│   │
+│   ├── parsers/
+│   │   ├── layout_parser.py
+│   │   ├── tree_parser.py
+│   │   └── __init__.py
+│   │
+│   ├── generators/
+│   │   ├── directory_generator.py
+│   │   ├── file_generator.py
+│   │   ├── content_generator.py
+│   │   └── __init__.py
+│   │
+│   ├── services/
+│   │   ├── groq_service.py
+│   │   ├── project_service.py
+│   │   └── __init__.py
+│   │
+│   ├── utils/
+│   │   ├── logger.py
+│   │   ├── file_utils.py
+│   │   ├── helpers.py
+│   │   └── __init__.py
+│   │
+│   ├── models/
+│   │   ├── project_model.py
+│   │   ├── file_model.py
+│   │   └── __init__.py
+│   │
+│   ├── config/
+│   │   ├── settings.py
+│   │   ├── constants.py
+│   │   └── __init__.py
+│   │
+│   └── __init__.py
+│
+├── tests/
+│   ├── test_parser.py
+│   ├── test_generator.py
+│   └── __init__.py
+│
+├── logs/
+│   └── app.log
+│
+├── .env
+├── .gitignore
+├── requirements.txt
+├── README.md
+├── main.py
+└── setup.py
