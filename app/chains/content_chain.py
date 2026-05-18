@@ -1,9 +1,4 @@
 """
-app/chains/content_chain.py
-
-LangChain chain that generates boilerplate file content for a given
-project type, file path, and programming language using the Groq LLM.
-
 Public API
 ----------
 chain = ContentChain()
